@@ -70,7 +70,6 @@ export default function App() {
     if (searchCity.trim() === "") {
       return;
     }
-
     try {
       const { currentWeather } = await fetchCity(searchCity);
       setWeatherData(currentWeather);
