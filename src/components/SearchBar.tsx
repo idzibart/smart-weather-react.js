@@ -12,7 +12,7 @@ export default function SearchBar({
   searchCity,
 }: SearchBarProps) {
   return (
-    <div className="m-auto mb-4 flex items-center justify-stretch  rounded-xl  bg-slate-200 px-2 py-1 shadow-lg">
+    <div className="m-auto mb-4 flex items-center justify-stretch  rounded-xl  bg-slate-200 px-2 py-1 shadow-md">
       <input
         className="bg-transparent text-center outline-none placeholder:font-normal"
         type="text"

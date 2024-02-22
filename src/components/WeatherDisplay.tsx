@@ -46,7 +46,7 @@ export default function DisplayWeather({
       {weatherData && isLoading ? (
         <>
           <div className="grid gap-6">
-            <div className="flex items-baseline justify-center gap-2">
+            <div className="flex items-baseline justify-center gap-1">
               <h1 className="text-center text-4xl font-bold">
                 {weatherData.name}{" "}
               </h1>
