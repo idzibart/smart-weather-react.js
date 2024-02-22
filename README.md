@@ -1,7 +1,8 @@
-simple weather app created with:
-- react
+Simple weather app that uses your localization. Created with:
+- react.js
+- react hooks
 - typscript
-- tailwind
+- tailwindcss
 - react icons
 - open weather API
 
